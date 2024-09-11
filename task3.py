@@ -18,7 +18,6 @@ def scale_columns(matrix):
     return scaled_matrix
 
 
-# Приклад використання
 X = np.array([[1, 2, 3], [4, 0, 6], [7, 8, 0]])
 scaled_X = scale_columns(X)
 print(scaled_X)

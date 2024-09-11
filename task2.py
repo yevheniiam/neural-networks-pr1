@@ -12,7 +12,7 @@ def closest_element(matrix, v):
     return matrix.flat[idx]
 
 
-# Приклад використання
+
 X = np.arange(0, 10).reshape((2, 5))
 v = 3.6
 result = closest_element(X, v)

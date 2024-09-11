@@ -24,7 +24,7 @@ def max_after_zero(x):
     return max(after_zero_elements)
 
 
-# Приклад використання
+
 x = np.array([6, 2, 0, 3, 0, 0, 5, 7, 0])
 result = max_after_zero(x)
 print(result)
